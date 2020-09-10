@@ -1,11 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    hello word!
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <!-- <div class="person" @click="toUrl('Midterm/index.html')">Midterm demo</div> -->
+      <div class="person" @click="toUrl('dashboard/index.html')">DashBoard</div>
+    </div>
+  </body>
 </html>
+<style>
+  .person {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    border: 1px solid #adadad;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: #d2e9ff;
+    cursor: pointer;
+  }
+  .person:hover {
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    background-color: #afd4f7;
+    transition: 0.3s;
+  }
+</style>
+<script>
+  let vm = new Vue({
+    el: "#app",
+    methods: {
+      toUrl(url) {
+        let endpoint = url
+        window.location.href = endpoint;
+      },
+    },
+  });
+</script>
