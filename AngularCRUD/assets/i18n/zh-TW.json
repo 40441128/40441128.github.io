@@ -1,0 +1,22 @@
+{
+  "dog":{
+    "name":"名稱",
+    "year":"年齡",
+    "kind":"種類",
+    "crud_for_dog":"狗狗的CRUD",
+    "edit_dog_information":"編輯狗狗資訊",
+    "please_enter_a_keyword_to_search":"請輸入關鍵字，即可搜尋"
+  },
+  "button":{
+    "add":"新增",
+    "cancel":"取消",
+    "delete":"刪除",
+    "save":"儲存"
+  },
+  "message":{
+    "successfully_added":"新增成功",
+    "successfully_modified":"修改成功",
+    "successfully_deleted":"刪除成功",
+    "fields_that_are_required":"必填欄位請務必填寫"
+  }
+}

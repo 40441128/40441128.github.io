@@ -1,0 +1,22 @@
+{
+  "dog":{
+    "name":"Name",
+    "year":"Year",
+    "kind":"Kind",
+    "crud_for_dog":"CRUD For Dog",
+    "edit_dog_information":"Edit dog information",
+    "please_enter_a_keyword_to_search":"Please enter a keyword to search"
+  },
+  "button":{
+    "add":"Add",
+    "cancel":"Cancel",
+    "delete":"Delete",
+    "save":"Save"
+  },
+  "message":{
+    "successfully_added":"Successfully Added",
+    "successfully_modified":"Successfully Modified",
+    "successfully_deleted":"Successfully Deleted",
+    "fields_that_are_required":"Fields that are required"
+  }
+}
