@@ -447,7 +447,7 @@ var DogService = /** @class */ (function () {
         this.http = http;
     }
     DogService.prototype.getdogs = function () {
-        return this.http.get('../../AngularCRUD/assets/data/dogs.json');
+        return this.http.get('../AngularCRUD/assets/data/dogs.json');
     };
     DogService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
